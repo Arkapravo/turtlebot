@@ -1,0 +1,25 @@
+<package>
+  <description brief="turtlebot_bringup">
+
+     turtlebot_bringup provides roslaunch scripts for starting the TurtleBot base functionality. 
+
+  </description>
+  <author>Tully Foote</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/turtlebot_bringup</url>
+  <depend package="app_manager"/>
+  <depend package="turtlebot_driver"/>
+  <depend package="turtlebot_node"/>
+  <depend package="turtlebot_description"/>
+  <depend package="joy"/>
+  <depend package="robot_state_publisher"/>
+  <depend package="pointcloud_to_laserscan"/>
+  <depend package="openni_camera"/>
+
+  <!-- for video teleoperation -->
+  <depend package="compressed_image_transport"/>
+  
+</package>
+
+
